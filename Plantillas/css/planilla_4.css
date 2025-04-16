@@ -58,3 +58,14 @@ footer {
   padding: 15px;               /* Espacio interior */
   font-size: 0.9em;            /* Tamaño de letra un poco más pequeño */
 }
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+
+.caja {
+  background: tomato;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
